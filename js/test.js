@@ -1,6 +1,6 @@
 function randomNum() {
   let a = document.querySelectorAll("h1");
-  for (let i = 0; i < 3; i++) {
+  for (let i = 0; i < a.length; i++) {
     let random = Math.floor(Math.random() * 10);
     a[i].innerHTML = random;
   }
